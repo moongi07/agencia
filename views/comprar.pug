@@ -1,0 +1,35 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row.align-items-center
+            .col-md-5
+                h1 Solicitud de registro para viaje a #{resultado.titulo}
+                img(src=`/img/destinos_${resultado.imagen}.jpg`, alt='imagen formulario', class='imagen img-fluid rounded shadow-lg')
+                p.text-muted Se generará un PDF con su solicitud de compra.
+            .col-md-7
+                .card.shadow-sm.p-4
+                    form(action='/comprar/' + encodeURIComponent(resultado.titulo)+'/'+resultado.imagen, method='POST')
+
+                        .mb-3
+                            label.form-label(for='nombre') Nombre
+                            input#nombre.form-control.rounded-pill.p-2(type='text', name='nombre', required placeholder="Introduce tu nombre")
+                            .mb-3
+                                label.form-label(for='apellidos') Apellidos
+                                input#apellidos.form-control.rounded-pill.p-2(type='text', name='apellidos', required placeholder="Introduce tus apellidos")
+                        .mb-3
+                            label.form-label(for='email') Correo Electrónico
+                            input#email.form-control.rounded-pill.p-2(type='email', name='email', required placeholder="Introduce tu email")
+                        .mb-3
+                            label.form-label(for='pais') País orígen
+                            select#pais.form-select.rounded-pill.p-2.m-2(name='pais', required, style='cursor:pointer')
+                                option(value='') Selecciona un país
+                                option(value='ES') España
+                                option(value='FR') Francia
+                                option(value='US') Estados Unidos
+                                option(value='IT') Italia
+                                option(value='UK') Reino Unido
+                        .form-check.mb-3
+                            input#terminos.form-check-input(type='checkbox', name='terminos', required, style='cursor:pointer')
+                            label.form-check-label(for='terminos') Acepto los términos y condiciones
+                        button.btn.btn-danger.w-100.rounded-pill.shadow-sm(type='submit') Registrarse
