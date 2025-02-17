@@ -1,23 +1,38 @@
-Agencia de Viajes
+# Agencia de Viajes 🚀
 
-Este proyecto es una aplicación web para la gestión de viajes. Con la última actualización, se ha añadido una funcionalidad que permite a los usuarios comprar un viaje y recibir un PDF con los detalles de su reserva.
+Este proyecto es una aplicación web para la gestión de viajes. Con la última actualización, se ha añadido una funcionalidad que permite a los usuarios **comprar un viaje** y recibir un **PDF** con los detalles de su reserva.
 
-🚀 Nuevas Funcionalidades
+---
 
-📌 Compra de Viaje con Generación de PDF
+## 🚀 Nuevas Funcionalidades
 
-1- Selección del viaje: El usuario puede hacer clic en "Comprar" en el viaje que desee.
+### 📌 **Compra de Viaje con Generación de PDF**
 
-2- Formulario de datos: Se redirige a un formulario donde el usuario introduce sus datos personales (nombre, correo, etc.).
+1. **Selección del Viaje**  
+   El usuario puede hacer clic en el botón **"Comprar"** en el viaje que desee.  
+   
+2. **Formulario de Datos**  
+   Una vez seleccionado el viaje, el usuario es redirigido a un formulario donde debe introducir sus **datos personales** (nombre, correo electrónico, etc.).
+   
+3. **Generación de PDF**  
+   Al confirmar la compra, se genera un **PDF** con los **detalles del usuario** y la **información del viaje** seleccionada.
 
-3- Generación de PDF: Al confirmar la compra, se genera un PDF con los datos del usuario y la información del viaje.
+---
 
-🛠️ Tecnologías Utilizadas
+## 🛠️ **Tecnologías Utilizadas**
 
-Frontend: PUG, BOOTSTRAP, CSS
+### **Frontend:**  
+  - PUG  
+  - BOOTSTRAP  
+  - CSS
 
-Backend: NODEJS,EXPRESS, SEQUELIZE
+### **Backend:**  
+  - NODEJS  
+  - EXPRESS  
+  - SEQUELIZE
 
-Base de datos: MySQL
+### **Base de Datos:**  
+  - MySQL
 
-Generación de PDF: Biblioteca iText
+### **Generación de PDF:**  
+  - Biblioteca **iText**
