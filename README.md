@@ -3,7 +3,7 @@
 Este proyecto es una aplicación web para la gestión de viajes. Con la última actualización, se ha añadido una funcionalidad que permite a los usuarios **solicitar un viaje** y recibir un **PDF** con los detalles de su reserva.
 
 ### **ENLACE AL PROYECTO:**  
-[Click aquí]([http://www.tuenlace.com](https://agencia-ecmb.onrender.com/))
+[Click aquí](https://agencia-ecmb.onrender.com/)
 
 ---
 
