@@ -1,6 +1,6 @@
 # Agencia de Viajes 🚀
 
-Este proyecto es una aplicación web para la gestión de viajes. Con la última actualización, se ha añadido una funcionalidad que permite a los usuarios **comprar un viaje** y recibir un **PDF** con los detalles de su reserva.
+Este proyecto es una aplicación web para la gestión de viajes. Con la última actualización, se ha añadido una funcionalidad que permite a los usuarios **solicitar un viaje** y recibir un **PDF** con los detalles de su reserva.
 
 ---
 
@@ -15,7 +15,7 @@ Este proyecto es una aplicación web para la gestión de viajes. Con la última 
    Una vez seleccionado el viaje, el usuario es redirigido a un formulario donde debe introducir sus **datos personales** (nombre, correo electrónico, etc.).
    
 3. **Generación de PDF**  
-   Al confirmar la compra, se genera un **PDF** con los **detalles del usuario** y la **información del viaje** seleccionada.
+   Al confirmar la solicitud, se genera un **PDF** con los **detalles del usuario** y la **información del viaje** seleccionada.
 
 ---
 
